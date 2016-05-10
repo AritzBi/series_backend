@@ -1,0 +1,4 @@
+<div class="row"> <div class="col-md-8"> <h1>{{episode.episode_name}}</h1> </div> <div class="col-md-4"><h1> {{episode.date | date:'yyyy-MM-dd'}}</h1> </div> <div class="row"> <div class="col-md-5"> <img class="img-responsive" ng-src="{{imageURL}}{{episode.filename}}"> </div> <div class="col-md-2"> </div> <div class="col-md-5 justify"> {{episode.overview}} <div class="row"> <div class="col-md-2"> <h1><span class="label label-success" ng-class="{
+								labelStyleRed: episode.rating >= '0' && episode.rating <'5',
+								labelStyleYellow: episode.rating >= '5' && episode.rating<'6', 
+								labelStyleGreen: episode.rating >= '6' }">{{episode.rating}}</span></h1> </div> <div class="col-md-10"></div> </div> </div> </div></div>

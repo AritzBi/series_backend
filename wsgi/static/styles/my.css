@@ -1,0 +1,324 @@
+.top-buffer { margin-top:75px; }
+.top-medium-buffer { margin-top:35px; }
+.leafletMobile{
+ padding-top:75px;
+ padding-right: 35px;
+ padding-left: 35px;
+
+}
+.navbar-brand{
+  padding: 15px 0px;
+}
+.glyphicon-star, .glyphicon-star-empty {
+	font-size: 25px;
+  padding-top: 30px;
+}
+.glyphicon-star-selected, .glyphicon-star-empty-selected {
+  color:red;
+  font-size: 25px;
+}
+.favorited-star{
+    color:yellow;
+}
+#rating:hover i {
+	color: green;
+}
+textarea { resize:none; }
+
+.fullHeight {
+  height:100%;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+.container-info{
+  margin-right:auto;
+  margin-left:auto;
+  padding-left:15px;
+  padding-right:15px
+}
+@media (min-width:768px){
+  .container-info{width:750px}
+}
+@media (min-width:992px){
+  .container-info{width:970px}
+}
+@media (min-width:1200px){
+  .container-info{width:1170px}
+}
+
+.container-map{
+/*padding-left: 25px;*/
+padding-top: 28px;
+padding-right: 25px;
+height: 100%;
+padding-bottom: 50px;
+}
+
+html,body {
+    height:100%; 
+}
+.data-container{
+  position:relative;
+  overflow-y: auto;
+  overflow-x:hidden;
+}
+.data-container-overflow{
+
+}
+
+
+.angular-leaflet-map{height:100%;}
+
+#scrollArea {
+  height: relative;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+#bottom {
+  display: block;
+  margin-top: 2000px;
+}
+
+.locations-list{
+	line-height: 15px;
+	font-size: 12px;
+}
+.noIdent{
+  text-indent: 0px;
+}
+
+
+.language-icon{
+  height: auto;
+  width: 20px;
+}
+.language-icon-homepage{
+  height: auto;
+  width: 40px;
+}
+.city-icon-homepage{
+  height: 200px;
+  width: 200px;
+}
+.borderRadius{
+   border-radius: 50%;
+}
+a:hover {
+ cursor:pointer;
+}
+
+snap-content {
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.ratingStyleGreen{
+  color: green;
+}
+
+.ratingStyleRed{
+  color: red;
+}
+
+.ratingStyleYellow{
+ color: yellow;
+}
+.labelStyleGreen{
+  background-color: green;
+}
+
+.labelStyleRed{
+  background-color: red;
+}
+
+.labelStyleYellow{
+ background-color: yellow;
+}
+
+.sidebarButton{
+    position: absolute;
+    margin-top: 30%;
+}
+@media screen and (max-width:768px){
+  .sidebarButton{visibility: hidden; display:none;}
+}
+
+@media (max-width:768px){
+  .desktop{visibility: hidden; display:none;}
+  .mobile{visibility: visible;}
+
+}
+@media (min-width:768px){
+  .mobile{visibility: hidden; display:none;}
+  .desktop{visibility: visible;}
+}
+
+.relative{
+  position: relative;
+}
+
+.addRouteElement{
+  /*color: white;
+  background-color:blue; */
+}
+.buttonNoBorder{
+  border-color: transparent;
+}
+
+.justify{
+  text-align: justify;
+}
+.center{
+  text-align: center;
+}
+.left{
+  text-align: left;
+}
+.date-format{
+  font-weight:bold;
+  font-size:15px;
+}
+.filter-background{
+  border-color: #000000;
+}
+.filter-format{
+  font-weight:bold;
+  font-size:15px; 
+}
+
+.filter-margin{
+  margin-bottom: 15px;
+}
+
+.popUpSize{
+  height: 100px;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .stackMargin{
+    margin-bottom: 15px;
+  }
+}
+
+.custom-button{
+  padding: auto;
+  width: 100%;
+}
+
+
+.form-control{
+   font-size: 13px;
+}
+
+.margin-toast{
+  margin-right: 400px;
+}
+.btn-green {
+ background-color: hsl(133, 57%, 31%) !important;
+ background-repeat: repeat-x;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4acd67", endColorstr="#217c35");
+ background-image: -khtml-gradient(linear, left top, left bottom, from(#4acd67), to(#217c35));
+ background-image: -moz-linear-gradient(top, #4acd67, #217c35);
+ background-image: -ms-linear-gradient(top, #4acd67, #217c35);
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #4acd67), color-stop(100%, #217c35));
+ background-image: -webkit-linear-gradient(top, #4acd67, #217c35);
+ background-image: -o-linear-gradient(top, #4acd67, #217c35);
+ background-image: linear-gradient(#4acd67, #217c35);
+ border-color: #217c35 #217c35 hsl(133, 57%, 25%);
+ color: #fff !important;
+ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.39);
+ -webkit-font-smoothing: antialiased;
+}
+
+.btn-blue {
+ background-color: hsl(200, 63%, 30%) !important;
+ background-repeat: repeat-x;
+ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#379ed1", endColorstr="#1c5c7c");
+ background-image: -khtml-gradient(linear, left top, left bottom, from(#379ed1), to(#1c5c7c));
+ background-image: -moz-linear-gradient(top, #379ed1, #1c5c7c);
+ background-image: -ms-linear-gradient(top, #379ed1, #1c5c7c);
+ background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #379ed1), color-stop(100%, #1c5c7c));
+ background-image: -webkit-linear-gradient(top, #379ed1, #1c5c7c);
+ background-image: -o-linear-gradient(top, #379ed1, #1c5c7c);
+ background-image: linear-gradient(#379ed1, #1c5c7c);
+ border-color: #1c5c7c #1c5c7c hsl(200, 63%, 24.5%);
+ color: #fff !important;
+ text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.36);
+ -webkit-font-smoothing: antialiased;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.container-leaflet{
+  margin-right:auto;
+  margin-left:auto;
+  padding-left:15px;
+  padding-right:15px
+}
+@media (min-width:768px){
+  .container-leaflet{width:175px}
+}
+@media (min-width:992px){
+  .container-leaflet{width:200px}
+}
+@media (min-width:1200px){
+  .container-leaflet{width:200px}
+}
+
+.flex-video {
+  position: relative;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  height: 0;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+ 
+.flex-video.widescreen { padding-bottom: 57.25%; }
+.flex-video.vimeo { padding-top: 0; }
+ 
+.flex-video iframe,
+.flex-video object,
+.flex-video embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-device-width: 800px), only screen and (device-width: 1024px) and (device-height: 600px), only screen and (width: 1280px) and (orientation: landscape), only screen and (device-width: 800px), only screen and (max-width: 767px) {
+  .flex-video { padding-top: 0; }
+}
+.radio{
+  padding-left: 20px;
+}
+.filter-left-margin{
+  padding-left: 20px;
+}
+.noColor{ color: inherit; } 
+.twitterWindow {
+  height:500px;
+  overflow-y:auto;
+  overflow-x:hidden;
+}
+
+/*.ng-toast.ng-toast--right .ng-toast__list {
+  left: auto;
+  right: 0;
+  margin-right: 400px;
+}*/
